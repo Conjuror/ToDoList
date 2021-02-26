@@ -609,7 +609,6 @@
 				17D18D38221D56C4005C647B /* Frameworks */,
 				17D18D39221D56C4005C647B /* Resources */,
 				8A01BEFB3ADECC2B23A4998C /* [CP] Embed Pods Frameworks */,
-				1745401B222EB8BE00B2CA7B /* Fabric */,
 				1718BE5023CCBB19009D591A /* Embed App Extensions */,
 				17278CE423CE058A0014B8B2 /* Embed Watch Content */,
 			);
@@ -779,24 +778,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1745401B222EB8BE00B2CA7B /* Fabric */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = Fabric;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" 06ceb8f70becb136dc0e3a334f040b5244b60c38 6cb1a5193d48da23c32baf638d367554d79acdfd3ea0bcf2b9fa801a14bd3b00\n";
-		};
 		1BF607087AE207E3FF8284EC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1358,7 +1339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 3999533L99;
+				DEVELOPMENT_TEAM = MGDYVN5BVE;
 				INFOPLIST_FILE = "$(SRCROOT)/Others/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1385,7 +1366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 3999533L99;
+				DEVELOPMENT_TEAM = MGDYVN5BVE;
 				INFOPLIST_FILE = "$(SRCROOT)/Others/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -12,8 +12,7 @@ import CloudKit
 import Robin
 import UserNotifications
 import LKAlertController
-import Fabric
-import Crashlytics
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
@@ -42,8 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     }
     
     func setupSDKs() {
-        Fabric.with([Crashlytics.self])
-        
+//        Fabric.with([Crashlytics.self])
 		_ = RealmManager()
         
         self.syncEngine = SyncEngine(objects: [
@@ -54,7 +52,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     }
 	
 	func requestPushNotificationsPerms() {
-		Robin.shared.requestAuthorization()
+        Robin.scheduler.requestAuthorization(forOptions: [.badge, .sound, .alert]) {
+            grant, error in
+            // TODO: Handle authorization or error
+        }
         let center = UNUserNotificationCenter.current()
         center.delegate = self
         
