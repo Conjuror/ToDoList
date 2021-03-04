@@ -97,6 +97,7 @@
 		17F03A2423CF4ED400E01D84 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 172F557B2361A04D00B2B8BB /* Localizable.strings */; };
 		17F03A2523CF4ED600E01D84 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 172F557B2361A04D00B2B8BB /* Localizable.strings */; };
 		17F03A2623CF4ED600E01D84 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 172F557B2361A04D00B2B8BB /* Localizable.strings */; };
+		1B63DD0A25F0C4B100522802 /* ToDoListUIBenchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B63DD0925F0C4B100522802 /* ToDoListUIBenchmark.swift */; };
 		386A95912461386B00EFA592 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 386A95932461386B00EFA592 /* InfoPlist.strings */; };
 		62037A555E643865DCCD3F33 /* Pods_ToDoList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EC7B181B2DC875AF97CD49 /* Pods_ToDoList.framework */; platformFilter = ios; };
 		86336197EBFD98B1AAC5CD91 /* Pods_ToDoListWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E3FD3FFB4BD0B30642179D /* Pods_ToDoListWidget.framework */; };
@@ -258,6 +259,7 @@
 		17EBE592221EE584005A9253 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		17EBE594221EE588005A9253 /* EditTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskViewController.swift; sourceTree = "<group>"; };
 		185537DE7CD05172D2533463 /* Pods-ToDoListWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoListWidget.debug.xcconfig"; path = "Target Support Files/Pods-ToDoListWidget/Pods-ToDoListWidget.debug.xcconfig"; sourceTree = "<group>"; };
+		1B63DD0925F0C4B100522802 /* ToDoListUIBenchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUIBenchmark.swift; sourceTree = "<group>"; };
 		386A95882460047F00EFA592 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		386A958A2460047F00EFA592 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/MainInterface.strings"; sourceTree = "<group>"; };
 		386A958B2460047F00EFA592 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Interface.strings"; sourceTree = "<group>"; };
@@ -537,6 +539,7 @@
 			isa = PBXGroup;
 			children = (
 				8AB1732825010EE600F482BE /* ToDoListUITests.swift */,
+				1B63DD0925F0C4B100522802 /* ToDoListUIBenchmark.swift */,
 				8AB1732A25010EE600F482BE /* Info.plist */,
 			);
 			path = ToDoListUITests;
@@ -961,6 +964,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AB1732925010EE600F482BE /* ToDoListUITests.swift in Sources */,
+				1B63DD0A25F0C4B100522802 /* ToDoListUIBenchmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
